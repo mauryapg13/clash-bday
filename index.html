@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clash Birthday: Alvin S Thottappilly</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Using popular gaming fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="arena">
+        <div id="particles"></div>
+        
+        <div class="title-container">
+            <h1 class="clash-title">TAP TO OPEN!</h1>
+            <p class="subtitle">A special chest awaits...</p>
+        </div>
+
+        <div id="chest-container">
+            <img src="assets/chest.png" id="chest" alt="Magical Chest" />
+            <div id="glow"></div>
+        </div>
+
+        <div id="card-overlay" class="hidden">
+            <div id="card-display">
+                <div class="card card-common" id="card-1">
+                    <div class="card-header">
+                        <h2>Doomscrolling Final Boss</h2>
+                        <span class="elixir-cost">📱</span>
+                    </div>
+                    <div class="card-image bg-blue">
+                        <img src="assets/doomscroll.png" alt="Doomscroller">
+                    </div>
+                    <div class="card-info">
+                        <p class="card-type">Troop • Common</p>
+                        <p class="card-desc">Spends 14 hours a day on Reels. His thumb muscle is unmatched.</p>
+                    </div>
+                </div>
+
+                <div class="card card-rare" id="card-2">
+                    <div class="card-header">
+                        <h2>Elexir Kundi</h2>
+                        <span class="elixir-cost">💧</span>
+                    </div>
+                    <div class="card-image bg-purple">
+                        <img src="assets/elixir.png" alt="Elixir">
+                    </div>
+                    <div class="card-info">
+                        <p class="card-type">Spell • Rare</p>
+                        <p class="card-desc">Drains all your elixir just by existing. High cost, zero return.</p>
+                    </div>
+                </div>
+
+                <div class="card card-epic" id="card-3">
+                    <div class="card-header">
+                        <h2>Sleeveless Women Hater</h2>
+                        <span class="elixir-cost">🛡️</span>
+                    </div>
+                    <div class="card-image bg-darkblue">
+                        <img src="assets/sleeveless.png" alt="Sleeveless Hater">
+                    </div>
+                    <div class="card-info">
+                        <p class="card-type">Building • Epic</p>
+                        <p class="card-desc">Automatically targets any sleeveless attire in a 10-tile radius. Extremely defensive.</p>
+                    </div>
+                </div>
+
+                <div class="card card-legendary" id="card-4">
+                    <div class="card-header">
+                        <h2>Alvin S Thottappilly</h2>
+                        <span class="elixir-cost">👑</span>
+                    </div>
+                    <div class="card-image bg-cyan">
+                        <img src="assets/alvin.png" alt="Alvin Birthday">
+                    </div>
+                    <div class="card-info">
+                        <p class="card-type">Champion • Legendary</p>
+                        <p class="card-desc">HAPPY BIRTHDAY! The man, the myth, the legend levels up today!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <button id="next-btn" class="hidden">Next Card</button>
+        </div>
+
+        <div id="scroll-edit-overlay" class="hidden">
+            <div id="king-tower">🏰</div>
+            <img id="rocket" src="assets/rocket.png" alt="Rocket">
+            <div id="explosion">💥</div>
+            <div id="scroll-container" class="hidden">
+                <div class="scroll-top"></div>
+                <div class="scroll-body">
+                    <h2>HAPPY BIRTHDAY ALVIN!</h2>
+                    <p>May your Crown Towers always stand strong, your Elixir never leak, and your Wi-Fi never drop! Hee Hee Hee Haw!</p>
+                </div>
+                <div class="scroll-bottom"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
